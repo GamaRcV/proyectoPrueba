@@ -1,26 +1,143 @@
-html,
-body {
-  padding: 0;
+:root {
+  --primary: #8E4AE5;
+  --secundary: #673AB7;
+  --black: #1E1E1E;
+  --gray:#C4C4C4;
+  --white: #FFF;
+  --botones:#A872EC;
+  --fuente-principal: 'Poppins', sans-serif;
+  
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--white);
+  font-size: 1.6rem;
+  font-family: var(--fuente-principal);
+  line-height: 1.5;
+}
+main{
+  width: 100vw;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.error,
+.error-enlace{
+  color: var(--white);
+  font-size: 2.4rem;
+  text-align: center;
+  margin: 15rem;
+  font-weight: 600;
+}
+.error-enlace{
+  font-size: 1.8rem;
+  display: block;
+  text-decoration: none;
+  color: var(--primary);
+}
+.titulo{
+  color: var(--primary);
+}
+.wallet {
+  padding-right: 1rem;
+  font-size: 3rem;
+}
+.flex{
+  
+}
+@media (min-width:768px){
+  .flex{
+    display: flex;
   }
 }
+.icono{
+  font-size: 4rem;
+}
+.icono_centrar{
+  padding: .5rem;
+}
+.eye{
+  display: none;
+}
+.of{
+  font-size: 2.5rem;
+  color: var(--white);
+}
+@media(min-width:768px){
+  .of{
+    display: none;
+  }
+}
+
+.alerta {
+  
+  padding: 2rem 3rem;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: var(--white);
+}
+.alerta.error {
+  background-color: var(--blanco);
+  
+  color: var(--white);
+}
+@media(min-width:768px){
+  .alerta {
+  
+    padding: 2rem 5rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    
+  }
+  .alerta.error {
+    background-color: var(--blanco);
+    
+    color: var(--white);
+  }
+}
+.advertencia{
+  color: #CE2C2C;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 90%;
+  top: 29%;
+}
+@media(min-width:768px){
+  .advertencia{
+    left: 89%;
+    top: 33%;
+  }
+}
+@media(min-width:920px){
+  .advertencia{
+    left: 68%;
+    font-size: 3rem;
+    top: 33%;
+  }
+}
+
+
+
+
+

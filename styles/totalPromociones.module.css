@@ -1,0 +1,96 @@
+.contenedor__Principal {
+    margin: 4rem 3rem 0 3rem;
+    width: 90%;
+    height: 100%;
+    position: relative;
+}
+
+
+.volver i{
+    font-size: 4rem;
+    color: var(--white);
+    position: absolute;
+    top: -14%;
+    right: 8%;
+    cursor: pointer;
+}
+
+.texto {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 0rem;
+}
+
+.texto span {
+    font-weight: bold;
+}
+
+.texto::after {
+
+    margin-top: .8rem;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary);
+    display: block;
+    left: 0;
+}
+
+.contenedorTabla {
+    width: 100%;
+    padding: 2rem 5rem 2rem 3rem;
+    background-color: #E9E9E9;
+    height: 82rem;
+    overflow: auto;
+}
+
+.contenedorTabla::-webkit-scrollbar {
+    display: none;
+}
+
+.tabla {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.contenedorTablaHeading {
+    position: sticky;
+    top: 0;
+    background-color: #E9E9E9;
+}
+
+.tableItems {
+    background-color: var(--primary);
+    color: var(--white);
+    margin-bottom: 1rem;
+    border-bottom: 10px solid #E9E9E9;
+}
+
+.itemData {
+    padding: 3rem;
+}
+
+.itemCaducidad {
+    font-size: 1.2rem;
+    opacity: .5;
+}
+
+.itemData select {
+    border: none;
+    background-color: var(--primary);
+    outline: none;
+    color: var(--white);
+
+}
+
+.itemPromocion {
+    text-transform: uppercase;
+}
+
+.itemNombre div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

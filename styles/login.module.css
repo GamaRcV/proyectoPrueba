@@ -1,0 +1,281 @@
+.contenedor_login {
+    height: 100vh;
+    
+}
+
+/* Bienvenida 1*/
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    height: 100%;
+}
+
+/*Bienvenida 2*/
+.contenedor2 {
+    background-color: var(--primary);
+    height: 100%;
+}
+
+/*Imagen de fondo*/
+.contenedor2_contenido {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/chinita.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 35.5rem;
+}
+
+@media(min-width:768px) {
+    .contenedor2_contenido {
+        background-size: 45rem;
+    }
+}
+
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width:768px) {
+    .logo {
+        width: 40rem;
+    }
+}
+
+.titulo {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Poppins';
+}
+
+.titulo_Grande {
+    display: block;
+    font-size: 4.5rem;
+    font-family: 'Poppins';
+}
+
+@media (min-width:768px) {
+    .titulo {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .titulo_Grande {
+        display: block;
+        font-size: 8rem;
+    }
+}
+/* Slider*/
+.contenenedor_slider{  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    width: 8rem;
+    position: absolute;
+    margin-top:  73rem;
+}
+@media(min-width:768px){
+    .contenenedor_slider{  
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+        width: 15rem;
+        position: absolute;
+        margin-top: 88rem;
+    }
+}
+.elipse{
+    width: 2.5rem;
+    height: 1rem;
+    background-color: var(--secundary);
+    border-radius: .5rem;
+}
+@media(min-width:768px){
+    .elipse{
+        width: 5rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+    }
+}
+.circulo{
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+}
+@media(min-width:768px){
+    .circulo{
+        width: 2rem;
+        height: 1.5rem;
+        border-radius: 2.5rem;
+    }
+}
+.boton {
+    font-family: 'Poppins';
+    appearance: none;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    color: var(--white);
+    background-color: #A473E1;
+    border: 1px solid transparent;
+    font-size: 1.6rem;
+    font-weight: semi-bold;
+    transition: 300ms ease ;
+}
+
+.boton:hover {
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+@media(min-width:768px){
+    .boton {
+        border-radius: 2rem;
+        padding: 1.5rem 6.5rem;
+        color: var(--white);
+        border: 1px solid transparent;
+        font-size: 1.8rem;
+        transition: 300ms ease ;
+    }
+}
+
+/*  Bienvenida 3, se reutiliza solo se cambia la imagen*/
+.contenedor3_contenido {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/cafe.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 35.5rem;
+}
+
+@media(min-width:768px) {
+    .contenedor3_contenido {
+
+        background-size: 40rem;
+    }
+}
+
+/*Bienvenida 4*/
+
+.contenedor4_contenido {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/selfie.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 38rem;
+}
+
+@media(min-width:768px) {
+    .contenedor4_contenido {
+
+        background-size: 40rem;
+    }
+}
+.span{
+    display: block;
+    font-size: 2.5rem;
+}
+@media(min-width:768px){
+    .span{
+        font-size: 5rem;
+    }
+    
+}
+
+/* Login Inicio de sesion o registrate*/
+
+.contenedor_sesion {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/sesion.png);
+    background-repeat: no-repeat;
+    background-position:50% 7%;
+    background-size: 35rem;
+}
+@media(min-width:768px){
+    .contenedor_sesion {
+        background-position:50% 12%;
+        background-size: 50rem;
+    }
+}
+.notificacion1{
+    width: 22rem;
+    position: absolute;
+    left: 42.2%;
+    top: 38%;
+}
+@media(min-width:768px){
+    .notificacion1{
+        width: 27rem;
+        position: absolute;
+        left: 50%;
+        top: 48%;
+    }
+}
+.notificacion2{
+    width: 26rem;
+    position: absolute;
+    right: 32%;
+    top: 47%;
+}
+@media(min-width:768px){
+    .notificacion2{
+        width: 30rem;
+        position: absolute;
+        right: 48.4%;
+        top: 58%;
+    }
+}
+.block{
+    display: block;
+}
+.contenedor_tituloSesion{
+    position: absolute;
+    top: 55%;
+}
+@media(min-width:768px){
+    .contenedor_tituloSesion{
+        position: absolute;
+        top: 64%;
+    }
+}
+.contenedorBotones{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    position: absolute;
+    top: 70%;
+}
+@media (min-width:768px){
+    .contenedorBotones{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6rem;
+        top: 83%;
+    }
+}
+
+

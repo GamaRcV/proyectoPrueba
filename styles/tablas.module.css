@@ -1,0 +1,84 @@
+.contenedorTabla{
+    width: 100%;
+    padding: 2rem 5rem 2rem 2rem;
+    background-color: #E9E9E9; 
+    height: 53rem;
+    overflow: auto;
+}
+.contenedorTabla::-webkit-scrollbar{
+    display: none;
+}
+.tabla{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+.contenedorTablaHeading{
+    position: sticky;
+    top: 0;
+    background-color: #E9E9E9;
+}
+.tableHeading{
+    
+}
+.tableItems{
+    background-color: var(--primary);
+    color: var(--white);
+    margin-bottom: 1rem;
+    border-bottom: 10px solid #E9E9E9;
+    
+}
+.tableItems i {
+    font-size: 4rem;
+    color:#33FF3B;
+    
+    padding: 0;
+    margin: 0;
+}
+.bandera{
+    display: flex;
+    margin: 0 auto;
+}
+.itemData{
+    padding: 3rem;
+    
+    
+}
+.itemCaducidad{
+    font-size: 1.2rem;
+    opacity: .7;
+}
+.itemData select{
+    border: none;
+    background-color: var(--primary);
+    outline: none;
+    color: var(--white);
+    
+}
+
+.itemNombre{
+
+}
+.itemPromocion{
+    text-transform: uppercase;
+}
+.itemNombre div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.letra{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(252, 252, 252, 0.274);
+    border-radius: 50%;  
+}
+.flexOn{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}

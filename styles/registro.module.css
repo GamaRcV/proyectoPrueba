@@ -1,0 +1,221 @@
+
+/*Registro 1*/
+.contenedor {
+    background-color:var(--white);
+    height: 100%;
+}
+@media(min-width:768px){
+    .contenedor {
+        background-color:#FFEAFF;
+    }
+}
+
+/*Imagen de fondo*/
+.contenedor_contenido {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/registro/registro.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+@media(min-width:768px){
+    .contenedor_contenido {
+        height: 67%;
+        width: auto;
+        background-position: top center;
+        background-size: 100%;
+    }
+}
+@media(min-width:920px){
+    .contenedor_contenido {
+        height: 100%;
+        width: auto;
+        background-position: top center;
+        background-size: 69rem;
+    }
+}
+.titulo{
+    color: var(--primary);
+    margin:0;
+    font-family: 'Poppins';
+}
+@media(min-width:768px){
+    .titulo{
+        color: var(--secundary);
+        font-size: 5rem;
+    }
+}
+@media(min-width:768px){
+    .texto{
+        font-size: 2rem;
+    }
+}
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 68%;
+}
+/* Slider*/
+.contenenedor_slider{  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    width: 8rem;
+    position: absolute;
+    margin-top:  72rem;
+}
+@media(min-width:768px){
+    .contenenedor_slider{  
+        margin-top: 87rem;
+    }
+}
+@media(min-width:920px){
+    .contenenedor_slider{  
+        margin-top: 86rem;
+    }
+}
+.elipse{
+    width: 2.5rem;
+    height: 1rem;
+    background-color: var(--secundary);
+    border-radius: .5rem;
+}
+@media(min-width:768px){
+    .elipse{
+        width: 5rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+    }
+}
+.circulo{
+    width: 1rem;
+    height: 1rem;
+    background-color: #919191;
+    border-radius: .5rem;
+}
+@media(min-width:768px){
+    .circulo{
+        width: 2rem;
+        height: 1.5rem;
+        border-radius: 2.5rem;
+    }
+}
+.contenedorBoton{
+    position: absolute;
+    top: 90%;
+}
+.boton{
+    border: none;
+    background-color: #A872EC;
+    color: var(--white);
+    padding: 1rem 13rem;
+    border-radius: .8rem;
+}
+.boton:hover {
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+.block{
+    display: block;
+}
+/* Pantalla Registro 2*/
+.contenedor_contenido2 {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/registro/registro2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+@media(min-width:768px){
+    .contenedor_contenido2 {
+        height: 67%;
+        width: auto;
+        background-position: top center;
+        background-size: 100%;
+    }
+}
+@media(min-width:920px){
+    .contenedor_contenido2 {
+        height: 100%;
+        width: auto;
+        background-position: top center;
+        background-size: 69rem;
+    }
+}
+.titulo2{
+    color: var(--primary);
+    margin:0;
+    font-family: 'Poppins';
+}
+@media(min-width:768px){
+    .titulo2{
+        color: var(--secundary);
+        font-size: 5rem;
+    }
+}
+@media(min-width:768px){
+    .texto2{
+        font-size: 2rem;
+    }
+}
+.contenenedor_slider2{  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    width: 8rem;
+    position: absolute;
+    margin-top:  72rem;
+}
+@media(min-width:768px){
+    .contenenedor_slider2{  
+        margin-top: 83rem;
+    }
+}
+@media(min-width:920px){
+    .contenenedor_slider2{  
+        margin-top: 86rem;
+    }
+}
+
+/*Pantalla registro 3*/
+
+.contenedor_contenido3 {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../public/img/login/registro/registro3.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+@media(min-width:768px){
+    .contenedor_contenido3 {
+        height: 67%;
+        width: auto;
+        background-position: top center;
+        background-size: 100%;
+    }
+}
+@media(min-width:920px){
+    .contenedor_contenido3 {
+        height: 100%;
+        width: auto;
+        background-position: top center;
+        background-size: 69rem;
+    }
+}

@@ -1,0 +1,13 @@
+.contenedor__Principal{
+    padding: 4rem ;
+    display: flex;
+    overflow: hidden;
+}
+.back i{
+    font-size: 4rem;
+    color: var(--white);
+    position: absolute;
+    top: 3%;
+    right:10%;
+    cursor: pointer;
+}
