@@ -15,6 +15,10 @@
     display: none;
 
 }
+.imagen_letras{
+    width: 17rem;
+    height: auto;
+}
 @media (max-width:767px){
     .imagen_letras{
     width: 10rem;
