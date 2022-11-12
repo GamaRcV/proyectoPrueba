@@ -11,7 +11,7 @@ export default function TablaItemPromociones({id,letra,nombre,promocion,recompen
           <td className={styles.itemNombre}><div><span className={styles.letra}>{letra}</span><span>{nombre}</span></div></td>
           <td className={styles.itemPromocion}>{ promocion}</td>
           <td className={styles.itemData}>{recompensa}</td>
-          <td className={styles.itemCaducidad}><div className={styles.flexOn}>{caducidad}<br/>{hora} <i onClick={()=> iconoOn ? setIconoOn(false): setIconoOn(true)} className={iconoOn? "bi bi-toggle-on": "bi bi-toggle-off"}></i></div></td>
+          <td className={styles.itemCaducidad}><div className={styles.flexOn}>{caducidad}<br/>{hora} <i onClick={()=>  setIconoOn(!iconoOn)} className={iconoOn ? "bi bi-toggle-on": "bi bi-toggle-off"}></i></div></td>
           <td className={styles.itemData}>
             <select>
               <option>Reservado ⚪</option>

@@ -1,8 +1,9 @@
 .contenedor__Principal {
-    margin: 4rem 3rem 0 3rem;
+    margin: 2rem 3rem 0 3rem;
     width: 90%;
     height: 100%;
     position: relative;
+   
 }
 
 
@@ -10,7 +11,7 @@
     font-size: 4rem;
     color: var(--white);
     position: absolute;
-    top: -14%;
+    top: -12%;
     right: 8%;
     cursor: pointer;
 }

@@ -1,6 +1,5 @@
 .contenedor_login {
     height: 100vh;
-    
 }
 
 /* Bienvenida 1*/
@@ -75,25 +74,7 @@
         font-size: 8rem;
     }
 }
-/* Slider*/
-.contenenedor_slider{  
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
-    width: 8rem;
-    position: absolute;
-    margin-top:  73rem;
-}
-@media(min-width:768px){
-    .contenenedor_slider{  
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 1rem;
-        width: 15rem;
-        position: absolute;
-        margin-top: 88rem;
-    }
-}
+
 .elipse{
     width: 2.5rem;
     height: 1rem;
@@ -132,8 +113,8 @@
     font-size: 1.6rem;
     font-weight: semi-bold;
     transition: 300ms ease ;
+    
 }
-
 .boton:hover {
     border: 1px solid var(--white);
     cursor: pointer;
@@ -148,7 +129,30 @@
         transition: 300ms ease ;
     }
 }
-
+/* Slider*/
+.divBtn{
+    
+    position: relative;
+}
+.contenenedor_slider{  
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    width: 8rem;
+    position: absolute;
+    top: -2rem;
+    left: 58%;
+    transform: translateX(-50%);
+}
+@media(min-width:768px){
+    .contenenedor_slider{  
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+        width: 15rem;
+    }
+}
 /*  Bienvenida 3, se reutiliza solo se cambia la imagen*/
 .contenedor3_contenido {
     height: 100%;

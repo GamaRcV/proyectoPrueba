@@ -1,6 +1,6 @@
 .contenedorTabla{
     width: 100%;
-    padding: 2rem 5rem 2rem 2rem;
+    padding: 0rem 5rem 2rem 2rem;
     background-color: #E9E9E9; 
     height: 53rem;
     overflow: auto;
@@ -15,20 +15,38 @@
     
 }
 .contenedorTablaHeading{
-    position: sticky;
-    top: 0;
-    background-color: #E9E9E9;
+    
+    
+    
 }
 .tableHeading{
-    
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    z-index: 5;
+    background-color: #E9E9E9;
+
 }
 .tableItems{
     background-color: var(--primary);
     color: var(--white);
     margin-bottom: 1rem;
-    border-bottom: 10px solid #E9E9E9;
-    
+    border-bottom: 10px solid #E9E9E9; 
+    position: relative;
 }
+.tableItems::after{
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../public/img/home/bandera.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: -3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .tableItems i {
     font-size: 4rem;
     color:#33FF3B;
