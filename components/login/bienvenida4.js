@@ -16,9 +16,9 @@ export default function Bienvenida4({setSesion,setCambio3}) {
                 </div>
                 <div className={styles.divBtn}>
                     <div className={styles.contenenedor_slider}>
+                        <div className={styles.circulo}></div>
+                        <div className={styles.circulo}></div>
                         <div className={styles.elipse}></div>
-                        <div className={styles.circulo}></div>
-                        <div className={styles.circulo}></div>
                     </div>
                     <button onClick={cambiar} className={styles.boton}>Empecemos</button>
                 </div>

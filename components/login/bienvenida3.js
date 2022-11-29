@@ -16,8 +16,8 @@ export default function Bienvenida3({setCambio2,setCambio3}) {
                 </div>
                 <div className={styles.divBtn}>
                     <div className={styles.contenenedor_slider}>
-                        <div className={styles.elipse}></div>
                         <div className={styles.circulo}></div>
+                        <div className={styles.elipse}></div>
                         <div className={styles.circulo}></div>
                     </div>
                     <button onClick={cambiar} className={styles.boton}>Siguiente</button>
